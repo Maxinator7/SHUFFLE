@@ -1,0 +1,70 @@
+
+
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type:none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-size: medium;
+}
+
+.container{
+    min-height: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Play', sans-serif;
+   display: flex;
+   justify-content: center;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bggg.jpg');
+  
+  font-size: small;
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 120px;
+    background-color: black;
+   
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: medium;
+    
+   
+    
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: black ;
+    color:wheat;
+    margin: 10px 0;
+    justify-content: center;
+    align-content: center;
+    border-radius: 34px;
+    font-size: small;
+    
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Play', sans-serif;
+    font-size: small;
+    
+}
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
