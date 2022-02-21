@@ -55,6 +55,7 @@ nav ul{
     border-radius: 34px;
     font-size: small;
     
+    
 }
 .songinfo{
     position: absolute;
@@ -63,8 +64,3 @@ nav ul{
     font-size: small;
     
 }
-@media only screen and (max-width: 1100px) {
-    body {
-      background-color: red;
-    }
-  }
